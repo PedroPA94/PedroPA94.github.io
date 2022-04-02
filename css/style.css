@@ -8,3 +8,12 @@ h1 {
    font-family: Enriqueta; 
 }
 
+p {
+    line-height: 1.5em;
+}
+
+.highlight {
+    background-color: #f08d63;
+    font-weight: 500;
+    padding: 0 2px;
+}
