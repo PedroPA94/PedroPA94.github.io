@@ -5,12 +5,77 @@ body {
     font-size: 16px;
 }
 
-h1 {
-   font-family: Enriqueta; 
+main {
+    width: 60%;
+    margin: auto;
 }
 
-p {
-    line-height: 1.5em;
+h1 {
+   font-family: Enriqueta;
+   text-align: center; 
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #041B15;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+#about {
+    height: 314px;
+    position: relative;
+}
+
+#profile-pic {
+    height: 300px;
+    float: left;
+    padding: 7px;
+    background-color: #f08d63;
+    border-radius: 10%;
+    margin-right: 15px;
+}
+
+#about p {
+    line-height: 2em;
+    position: absolute;
+    top: 80px;
+    left: 320px;
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+}
+
+#skills, #links {
+    width: 49%;
+    display: inline-block;
+    margin: auto;
+}
+
+#skills li:nth-child(odd) {
+    background-color: #f08d63;
+    width: 50%;
+}
+
+#links a{
+    color: #dd6633
 }
 
 .highlight {
