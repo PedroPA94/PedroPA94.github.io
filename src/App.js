@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import About from './components/About'
-import Footer from './components/Footer'
 import Language from './components/Language'
+import MediaIcons from './components/MediaIcons'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Title from './components/Title'
@@ -12,15 +12,18 @@ function App () {
 
   return (
     <div className="App">
+      <Language language={language} setLanguage={setLanguage} />
       <main>
-        <Language language={language} setLanguage={setLanguage} />
         <Title language={language} />
         <About language={language} />
         <Skills language={language} />
         <hr />
         <Projects language={language} />
-        <Footer />
       </main>
+      <footer>
+        <MediaIcons language={language} />
+        <p>&copy;Pedro Papini, 2022</p>
+      </footer>
     </div>
   )
 }

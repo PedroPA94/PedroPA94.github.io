@@ -24,17 +24,6 @@
   font-family: 'Work Sans';
 }
 
-.media-icons {
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.media-icons span {
-  cursor: pointer;
-}
-
 @media screen and (min-width: 360px) {
   .Title {
     margin-top: 30%;
@@ -50,10 +39,6 @@
 
   .Title h3 {
     font-size: 22px;
-  }
-
-  .media-icons {
-    font-size: 26px;
   }
 }
 
@@ -73,10 +58,6 @@
   .Title h3 {
     font-size: 28px;
   }
-
-  .media-icons {
-    font-size: 32px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -90,9 +71,5 @@
 
   .Title h3 {
     font-size: 30px;
-  }
-
-  .media-icons {
-    font-size: 35px;
   }
 }
