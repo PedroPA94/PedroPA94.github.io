@@ -1,0 +1,32 @@
+.Skills {
+  text-align: left;
+}
+
+.Skills h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.skills-container {
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+@media screen and (min-width: 760px) {
+  .Skills h3 {
+    font-size: 22px;
+  }
+
+  .skills-container {
+    font-size: 20px;
+  }
+}

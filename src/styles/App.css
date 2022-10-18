@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;700&family=Work+Sans:wght@300;400;700&display=swap');
+
+:root {
+  --font-color: #323333;
+  --font-secondary: #757575;
+  --accent: #FFE8A3;
+}
+
+.App {
+  background-color: #FDFDFA;
+  color: var(--font-color);
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: Enriqueta, sans-serif;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 0 10px;
+}
+
+hr {
+  height: 1px;
+  width: 80%;
+  color: var(--font-color);
+  background-color: var(--font-color);
+  border-width: 0;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+a, a:visited {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 760px) {
+  main {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 0;
+  }
+}
