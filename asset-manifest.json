@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.352d83b4.css",
+    "main.css": "/static/css/main.c5cd2156.css",
     "main.js": "/static/js/main.2945ff02.js",
     "static/media/profile.avif": "/static/media/profile.6e718755bc484d71f7ce.avif",
     "static/media/recipes.avif": "/static/media/recipes.c2c4e195d2e097486613.avif",
     "static/media/trybewallet.avif": "/static/media/trybewallet.b7e184d644cafa5e8942.avif",
     "static/media/starwars.avif": "/static/media/starwars.28dc6489e7246fbea5e6.avif",
     "index.html": "/index.html",
-    "main.352d83b4.css.map": "/static/css/main.352d83b4.css.map",
+    "main.c5cd2156.css.map": "/static/css/main.c5cd2156.css.map",
     "main.2945ff02.js.map": "/static/js/main.2945ff02.js.map"
   },
   "entrypoints": [
-    "static/css/main.352d83b4.css",
+    "static/css/main.c5cd2156.css",
     "static/js/main.2945ff02.js"
   ]
 }
